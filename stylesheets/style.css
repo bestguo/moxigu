@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Scss Document */
+/* line 4, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/style.scss */
+body {
+  background: url('../images/body_bg.png?1445836700') repeat 0px 0px;
+  font-family: "微软雅黑", "宋体";
+  font-size: 12px;
+  line-height: 22px;
+  color: #666;
+  word-wrap: break-word;
+}
+
+/* line 18, ../sass/style.scss */
+.g_main {
+  background: url('../images/bg.png?1443579914') repeat 0px 0px;
+  padding: 83px 0 0;
+  overflow: hidden;
+}
+
+/* line 24, ../sass/style.scss */
+.g_wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/style.scss */
+.g_list {
+  float: left;
+  margin-right: -100px;
+}
+
+/* line 34, ../sass/style.scss */
+.m_list {
+  float: left;
+}
+
+/* line 38, ../sass/style.scss */
+.m_list li {
+  float: left;
+  width: 294px;
+  height: 294px;
+  background-color: #F79A9B;
+  margin: 0 70px 41px 0;
+}

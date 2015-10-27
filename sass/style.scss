@@ -1,0 +1,45 @@
+/* Scss Document */
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:image-url("body_bg.png") repeat 0px 0px;
+	font-family:"微软雅黑", "宋体";
+	font-size:12px;
+	line-height:22px;
+	color:#666;
+	word-wrap:break-word;
+}
+
+.g_main{
+	background:image-url("bg.png") repeat 0px 0px;
+	padding:83px 0 0;
+	overflow:hidden;
+}
+
+.g_wrap{
+	width:1000px;
+	margin:0 auto;
+}
+
+.g_list{
+	float:left;
+	margin-right:-100px;
+}
+
+.m_list{
+	float:left;
+}
+
+.m_list li{
+	float:left;
+	width:294px;
+	height:294px;
+	background-color:#F79A9B;
+	margin:0 70px 41px 0;
+}
+
