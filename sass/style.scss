@@ -1,9 +1,16 @@
 /* Scss Document */
 @charset "utf-8";
+@import "compass/css3";
+
+$border-width:12px;
 
 *{
 	margin:0;
 	padding:0;
+}
+
+li{
+	list-style:none;
 }
 
 body{
@@ -37,9 +44,40 @@ body{
 
 .m_list li{
 	float:left;
+	position:relative;
 	width:294px;
 	height:294px;
-	background-color:#F79A9B;
+	overflow:hidden;
 	margin:0 70px 41px 0;
+}
+
+.m_list a{
+	display:block;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	
+	&:hover{
+		
+		img{
+			@include transform(rotate(360deg));
+		}
+	}
+}
+
+
+.content{
+	position:absolute;
+	top:$border-width;
+	left:$border-width;
+	right:$border-width;
+	bottom:$border-width;
+	overflow:hidden;
+	
+	img{
+		width:100%;
+		height:100%;
+		@include transition(transform 0.8s ease-in);
+	}
 }
 
